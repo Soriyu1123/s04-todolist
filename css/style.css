@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+}  
+
+header {
+    margin-top: 10%;
+}
+
+.search {
+    margin-top: 3%;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.list-item {
+    margin-top: 5%;
+}
+
+/* Footer Section Design */
+
+.footer{
+    padding: 3% 0;
+    color: black;
+}
+
+.footer-icon{
+    color: black;
+}
+
+.footer-icon:hover{
+    color:rgb(26, 208, 159);
+}
