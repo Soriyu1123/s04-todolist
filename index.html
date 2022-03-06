@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JS boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Font awesome cnd 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="head-container">
+                <a href="#">To Do List</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="search">
+            <form>
+                <input type="text" id="user-todo" onclick='btn()' placeholder="Enter a Task..." autofocus required>
+            </form>
+        </div>
+    </div>
+
+    <div class="list-item">
+        <h3>Saved List(s):</h3>
+        <p>This to do-list website enables user to manage their own list on-the-go.</p>
+        <ul class="list-group">
+
+        </ul>
+        
+        <input type="button" class="btn btn-outline-dark" id="clear" value="clear all" disabled/>
+        
+        
+    </div>
+    <!-- JS -->
+    <script src="js/index.js"></script>
+    
+<!-- footer -->
+
+<div class="footer">
+    <a href="https://web.facebook.com/Joshyb1123/"><i class="fab fa-3x fa-facebook-square footer-icon"></i></a>
+    <a href="https://www.reddit.com/user/Soriyu1123"><i class="fab fa-3x fa-reddit-square footer-icon"></i></a>
+    <a href="https://https://github.com/Soriyu1123"><i class="fab fa-3x fa-github-square footer-icon"></i></a>
+
+    <p>© 2021 Czech Josh S. Buenaventura, BSIT Student</p>
+</div>    
+</body>
+</html>
