@@ -32,7 +32,9 @@ var todoMaker = function(text){
 
     // 3.3 append to add a sample inputted list
     todoList.appendChild(todo);
-    // 3.4 removing bulleted format 
+    // 3.4 removing bulleted format
+    // 5.1 when inputed the button will be enable
+    document.getElementById('clear').disabled = false;
 
 }
 
@@ -41,17 +43,7 @@ var todoMaker = function(text){
 button.addEventListener('click', function(){
     while (todoList.firstChild){
         todoList.removeChild(todoList.firstChild);
+        // 5.2 when clear button is click it will be disable 
+        document.getElementById('clear').disabled = true;
     }
-})
-
-//Button disable
-function btn() {
-     if(document.querySelector("ul").value==="") { 
-            document.getElementById('clear').disabled = true; 
-        } else { 
-            document.getElementById('clear').disabled = false;
-        }
-};
-
-
-
+});
